@@ -1,0 +1,471 @@
+.img-1 {
+    height: 225px;
+    width: 160px;
+    max-width: 100%; height: auto;
+    
+}
+/* back ground pattern*/
+body {
+    background-image: url(scribble_light_@2X.png);
+    
+}
+
+.nameHeader {
+    background-color: #4aaaa5;
+    color: #ffffff;
+   
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    padding-top: .7777%;
+    margin-left: 24.66666%;
+    max-width: 100%; 
+
+}
+/*column for nav links to stack under name header*/
+
+.column1 {
+    max-width: 100%;
+    float: left;
+    
+}
+
+.column2 {
+    max-width: 100%;
+    float: left;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+     .column2 {
+        
+        width:100%;
+        text-align: left;
+
+    
+        
+    }
+}
+.row:after {
+    display:table;
+    clear: both;
+    content: "";
+}
+
+
+
+
+/* nav bar*/
+.horizontalNav {
+    display: inline;
+    
+    
+    
+    
+}
+/* the little line between nav links and right side spacing*/
+.classyLine {
+    border-right: solid;
+    border-color: #cccccc;
+    border-width: 2px;
+    padding-right: 10px;
+                                    
+}
+/* padding for nav left*/
+.addedPaddingNav {
+    padding-left: 6px;
+}
+/* link color, remove underline bar*/
+a {
+    color: #777777;
+    text-decoration: none;
+
+}
+/* for some reason i couldnt change the font size for links under the element so i had to make a class*/
+.linkSize {
+    font-size: 20px;
+}
+
+
+/* make underline bar when hovering*/
+a:hover {
+    text-decoration: underline;
+}
+
+/* positioning for the nav bar links on the white background box */
+.navPosition {
+    
+    position: fixed;
+    left: 61.2222%;
+    margin-top: 25px;
+    max-width: 100%; 
+    
+    
+    
+    
+}
+
+
+
+/*  pain the in the ass background white box for header and nav bar*/
+.box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 65px;
+    background: white;
+    width: 100%;
+    border-style: solid;
+    border-color: #cccccc;
+    border-bottom-width: 2px;
+    
+    
+    
+}
+/* generic right float class*/
+.rightFloat {
+    float: right;
+}
+/* generic left float class*/
+.leftFloat {
+    float: left;
+}
+
+
+/* clear float class*/
+.fixFloat {
+    clear: both;
+}
+
+/* makes box around about me section, 960 width, colors background, positions*/
+.box-1 {
+        position: fixed;
+        width: 50%;
+        background: white;
+        top: 8.33333%;
+        left: 24.66666%;
+        
+
+}
+
+
+
+
+
+/* sets footer background, forces bottom of page and fill width, limits height to only 50px*/
+footer {
+    background-color: #666666;
+    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 5.2222%;
+   
+   
+}
+/* centers text, colors text, margin pushes it to the bottom of box, not sure if theres a better way*/
+.footText {
+    
+    text-align: center;
+    color: #ffffff;
+    
+    margin-top: 1.5%;
+}
+/* makes solid teal border, estimated the size, dont know how to use google's ruler on an image*/
+.footBorder {
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-top-width: 6px;
+    
+}
+
+/* styles the second header, hopefully on each page. might need to tweak it here and there*/
+.secondHeader {
+
+    color: #4aaaa5;
+    font-size: 28px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-color: #dddddd;
+    line-height: 75px;              /*allows me to put a space between bottom border and second header*/
+    max-width: 100%; 
+
+
+}
+/*aligns my image with proper spacing from border and paragraph*/
+.pushImg {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+/* styles the paragraph text along with margins from borders*/
+.paraText {
+    line-height: 35px;
+    color: #777777;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-right: 20px;
+    margin-left: 20px;
+   
+    
+}
+/* applies space to bottom of paragraph from border had to use a second class because I split up the paragraphs*/
+.paraText-2 {
+    margin-bottom: 20px;
+}
+
+/*adds border to main content and adds space from main header and nav bar */
+.paraDivBorder {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+/* Form Contact styling name and email lines*/
+.contactLines {
+
+    width: 94.9999%;
+    height: 28px;
+    margin-left: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    
+}
+
+/* form message styling */
+
+textarea {
+    width: 94.9999%;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 2%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    resize: none;
+    
+}
+
+/*label font for */
+.contactLabel {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 25px;
+    
+    
+}
+
+/* messing around with placeholder text*/
+.contactLabel-2 {
+ 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #888888;
+  
+    
+}
+
+
+/* styles the button*/
+.butStyle {
+
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    border: none;
+    font-size: 18px;
+}
+
+
+.overFlowScroll {
+    
+}
+
+.portImg {
+
+    height: 190px;
+    width: 240px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+}
+
+.portImgSpace {
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.portHeader2 {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+    top: 130px;
+    padding-top: 9px;
+    
+
+
+}
+
+.boxImg1 {
+    position: absolute;
+    top: 16.1111%;
+    left: 2.7777%;
+    height: 175px;
+    width: 225px; 
+    margin-top: 8px;
+    background-image: url(hangman.jpg);
+    max-width: 100%;
+}
+
+
+.boxImg2 {
+    position: absolute;
+    top: 16.1111%;
+    left: 29.666666%;
+    height: 175px;
+    width: 225px; 
+    margin-top: 8px;
+    background-image: url(rubix.jpg);
+    max-width: 100%;
+    
+}
+
+.boxImg3 {
+    position: absolute;
+    top: 325px;
+    left: 2.7777%;
+    height: 175px;
+    width: 225px; 
+    margin-top: 8px;
+    background-image: url(trivia.jpg)
+}
+
+.boxImg4 {
+    position: absolute;
+    top: 530px;
+    left: 2.7777%;
+    height: 175px;
+    width: 225px; 
+    margin-top: 8px;
+    background-image: url(widgets.png)
+    
+
+
+}
+
+.boxImg5 {
+    position: absolute;
+    top: 325px;
+    left: 29.666666%;
+    height: 175px;
+    width: 225px; 
+    margin-top: 8px;
+    background-image: url(rpggame.jpeg)
+}
+
+
+
+
+
+
+
+.boxPort1 {
+    position: fixed;
+    width: 50%;
+    height: 745px;
+    background: white;
+    top: 8.33333%;
+    left: 24.66666%;
+    
+    
+
+}
+
+
+.infoBox {
+    position: absolute;
+    top: 530px;
+    left: 285px;
+    width:100%;
+    height:400px;
+}
+
+
+
+a.profLinks {
+    color: #ffffff;
+    
+    
+}
+
+
+
+.columnImg1 {
+
+background-color: white;
+}
+
+.columnImg2 {
+
+    background-color:white;
+}
+
+
+.boxPort1:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+@media screen and (max-width: 700px) {
+    .columnImg1, .columnImg2 {
+       
+       width:100%;
+       text-align: left;
+
+   
+       
+   }
+}
+
+
